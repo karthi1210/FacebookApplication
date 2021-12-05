@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="28.557221">
+<testcase classname="" name="_2" time="16.012278">
+<system-out><![CDATA[Given The User Should load the url of the Facebook..........................passed
+And The User should maximize the Window.....................................passed
+When The User should type the Invalid Username and Invalid Password.........passed
+And The User should click the login button..................................passed
+Then The User should directed to Invalid credential page....................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_2" time="12.544943">
+<system-out><![CDATA[Given The User should load the URL of facebook..............................passed
+And The User should maximize the window.....................................passed
+When The User should click the ForgottonPassword............................passed
+Then The User should directed to reset password page........................passed
+And The user should type the mobile number or email.........................passed
+]]></system-out>
+</testcase>
+</testsuite>

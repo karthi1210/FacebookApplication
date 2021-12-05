@@ -1,0 +1,349 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3576730700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.starts()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "    To validate Login page of Facebook with Invalid Username and Invalid Password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 5774744600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.ends()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1340800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.failedScenarioScreenShots(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1167182500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The User Should load the url of the Facebook",
+            "match": {
+              "location": "StepDefinition.the_User_Should_load_the_url_of_the_Facebook(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "URL",
+                  "https://en-gb.facebook.com/"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8614900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The User should maximize the Window",
+            "match": {
+              "location": "StepDefinition.the_User_should_maximize_the_Window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183219200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The User should type the Invalid Username and Invalid Password",
+            "match": {
+              "location": "StepDefinition.the_User_should_type_the_Invalid_Username_and_Invalid_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Username",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "karthik",
+                  "karti@123"
+                ]
+              },
+              {
+                "cells": [
+                  "java",
+                  "java@123"
+                ]
+              },
+              {
+                "cells": [
+                  "selenium",
+                  "selenium@123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55383500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The User should click the login button",
+            "match": {
+              "location": "StepDefinition.the_User_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5241204500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The User should directed to Invalid credential page",
+            "match": {
+              "location": "StepDefinition.the_User_should_directed_to_Invalid_credential_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FBLogin"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To validate Login page of Facebook",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/FBLogin.feature",
+    "tags": [
+      {
+        "name": "@FBLogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 10
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1605754500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.starts()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "    Reset the password with mobile number or email for facebook",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 5755912700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.ends()"
+            }
+          },
+          {
+            "result": {
+              "duration": 124800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.failedScenarioScreenShots(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1100939000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The User should load the URL of facebook",
+            "match": {
+              "location": "StepDefinition.the_User_should_load_the_URL_of_facebook(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "https://en-gb.facebook.com/"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6564100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The User should maximize the window",
+            "match": {
+              "location": "StepDefinition.the_User_should_maximize_the_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1429282100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The User should click the ForgottonPassword",
+            "match": {
+              "location": "StepDefinition.the_User_should_click_the_ForgottonPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280139400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The User should directed to reset password page",
+            "match": {
+              "location": "StepDefinition.the_User_should_directed_to_reset_password_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2364353500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should type the mobile number or email",
+            "match": {
+              "location": "StepDefinition.the_user_should_type_the_mobile_number_or_email(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Mobile",
+                  "Email"
+                ]
+              },
+              {
+                "cells": [
+                  "9876543210",
+                  "kartik"
+                ]
+              },
+              {
+                "cells": [
+                  "9874982385",
+                  "selenium"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ForgotPassword"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  Reset the password by Clicking Forgotton Password in facebook",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FeatureFiles/ForgottenPassword.feature",
+    "tags": [
+      {
+        "name": "@ForgotPassword",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 17
+        }
+      }
+    ]
+  }
+]
